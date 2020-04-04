@@ -10,5 +10,6 @@ figure(1); imshow(img1);
 p = drawpolygon('LineWidth',5,'Color','black');
 corner1 = p.Position;
 
+%%fun_imgprocess functions process "img1" then overlay it on "img2"
 img2_new = fun_imgprocess(img1, img2, corner1);
 imshow(img2_new);
